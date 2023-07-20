@@ -1,0 +1,39 @@
+<head>
+	<title>Randomizer</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<table class="randomizer_layout">
+	<caption>Randomizer</captio>
+	<tr>
+		<td>Pick Random</td>
+		<td><input type="number" placeholder="min" id="input_min" class="input_box" title="min"></td>
+		<td><input type="number" placeholder="max" id="input_max" class="input_box" title="max"></td>
+	</tr>
+	<tr>
+		<td>Target Value</td>
+		<td><input type="number" placeholder="value" id="input_target" class="input_box" title="target value"></td>
+		<td><label onclick="TargetValueHelp();" title="target value help">(?)</label></td>
+	</tr>
+	<tr>
+		<td>Allow Decimal</td>
+		<td><input type="checkbox" id="input_decimal"></td>
+		<td><label onclick="DecimalHelp()">(?)</label></td>
+	</tr>
+	<tr>
+		<td><input type="button" value="Start" id="input_start" class="input_button" title="begin process"></td>
+	</tr>
+</table>
+<table id="table_result">
+	<caption>Printed Results <label onclick="ResultsHelp();" title="results help">(?)</label></caption>
+	<tr>
+		<td class="table_first_col">Tries</td>
+		<td>Chosen Value</td>
+	</tr>
+</table>
+<script src="functions.js"></script>
+<script src="randomizer.js"></script>
+<script src="script.js"></script>
+<script src="loop.js"></script>
+<script src="alert.js"></script>
+</body>

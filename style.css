@@ -1,0 +1,29 @@
+.randomizer_layout {
+	position: fixed;
+	right: 15%;
+	top: 10px;
+	border: 1px solid black;
+	background: white;
+}
+
+.input_box {
+	width: 80px;
+}
+
+.input_button {
+	width: 75px;
+	height: 25px;
+	cursor: pointer;
+}
+
+.table_first_col {
+	border-right: 1px solid black;
+}
+
+#table_result {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+#table_result td {
+	width: 250px;
+}
